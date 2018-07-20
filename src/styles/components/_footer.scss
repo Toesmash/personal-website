@@ -1,0 +1,12 @@
+.footer__bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: lightgrey;
+
+  p, a {
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+}
