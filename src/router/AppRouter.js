@@ -11,7 +11,7 @@ import Contact from '../components/Contact';
 import NotFound from '../components/NotFound';
 
 
-const browserHistory = createHistory();
+export const browserHistory = createHistory();
 
 const AppRouter = () => (
   <Router history={browserHistory}>

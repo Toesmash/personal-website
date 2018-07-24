@@ -2,18 +2,12 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-.container__header {
-
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .container__component {
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-.container__footer {
 }

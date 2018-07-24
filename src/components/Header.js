@@ -1,21 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => (
-  <header className="container__header">
-    <div className="wrapper">
-      <div className="header__bar">
-        <div>
-          <Link to="/">Tomas Chvalny</Link>
+    <header className="header">
+        <div className="header__home">
+            <h2><Link to="/">TOMAS CHVALNY</Link></h2>
         </div>
-        <div>
-          <Link to="/resume">Resume</Link>
-          <Link to="/portfolio">Portfolio</Link>
-          <Link to="/contact">Contact</Link>
+        <div className="header__nav">
+            <NavLink activeClassName="link--active" to="/resume">RESUME</NavLink>
         </div>
-      </div>
-    </div>
-  </header>
+    </header>
 );
 
 export default Header;

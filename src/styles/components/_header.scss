@@ -1,14 +1,23 @@
 .header {
-  background: $bg-color1;
-}
-
-.header__bar {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 2rem 1rem;
 
-  p,a {
-    color: white;
+  a {
+    color: lightgray;
+    padding-bottom: 0.2rem;
     text-decoration: none;
+    transition: border 0.2s ease;
+
+    &:hover {
+      border-bottom: 2px solid $hl-color2;
+    }
+  }
+}
+
+.header__home {
+  a {
+    color: $hl-color2;
   }
 }

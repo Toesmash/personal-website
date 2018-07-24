@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  align-items: center;
+}
+
+.home__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: 6rem;
+    span {
+      color: $hl-color2;
+    }
+    &:nth-child(3) {
+      font-size: 3rem;
+      margin-bottom: 3rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+.home__splitter {
+  height: 75vh;
+  border-right: 2px solid $hl-color2;
+  margin: 5rem;
+}
+
+.home__picture {
+  img {
+    height: 50vh;
+    border-radius: 50%;
+  }
+}

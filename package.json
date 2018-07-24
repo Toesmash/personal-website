@@ -6,7 +6,7 @@
   "author": "Tomas Chvalny",
   "license": "MIT",
   "scripts": {
-    "start": "parcel server/server.js"
+    "start": "parcel public/index.html"
   },
   "dependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",

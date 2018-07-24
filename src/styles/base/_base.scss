@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
 * {
   margin: 0;
   padding: 0;
@@ -16,13 +16,11 @@ html {
 
 body {
   font-size: 1.3rem;
-  background: $bg-color1;
+  background:   #1e272e;
   color: white;
-  font-family: 'Raleway', Helvetica, sans-serif;
-  
+  font-family: 'Oxygen', Helvetica, sans-serif; 
 }
 
-.wrapper {
-  margin: 0 auto;
-  max-width: 80rem;
+.link--active{
+  border-bottom: 2px solid $hl-color2;
 }
