@@ -8,7 +8,7 @@ const PublicRoute = ({ component: Component }) => {
   return (
     <Route
       component={() => (
-        <div className="container">
+        <div>
           <Header />
           <Component />
           <Footer />

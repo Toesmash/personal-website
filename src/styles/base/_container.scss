@@ -1,13 +1,5 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 90vw;
-  margin: 0 auto;
-}
-
 .container__component {
-  flex: 1;
   display: flex;
   justify-content: center;
+  min-height: 90vh;
 }

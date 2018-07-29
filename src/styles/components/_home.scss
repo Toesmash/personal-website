@@ -11,7 +11,7 @@
   p {
     font-size: 6rem;
     span {
-      color: $hl-color2;
+      color: $main-color;
     }
     &:nth-child(3) {
       font-size: 3rem;
@@ -23,7 +23,7 @@
 
 .home__splitter {
   height: 75vh;
-  border-right: 2px solid $hl-color2;
+  border-right: 2px solid $main-color;
   margin: 5rem;
 }
 

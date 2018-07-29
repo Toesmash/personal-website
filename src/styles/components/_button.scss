@@ -1,7 +1,7 @@
 .button {
-  background: $hl-color2;
+  background: $main-color;
   border: none;
-  border-bottom: 3px solid darken($hl-color2, 30);
+  border-bottom: 3px solid darken($main-color, 30);
   border-radius: 1rem;
   color: white;
   cursor: pointer;
@@ -14,9 +14,9 @@
     margin-top: 3px;
   }
   &:hover {
-    -moz-box-shadow: 0 0 50px lighten($hl-color2, 5);
-    -webkit-box-shadow: 0 0 50px lighten($hl-color2, 5);
-    box-shadow: 0px 0px 50px lighten($hl-color2, 5);
+    -moz-box-shadow: 0 0 50px lighten($main-color, 5);
+    -webkit-box-shadow: 0 0 50px lighten($main-color, 5);
+    box-shadow: 0px 0px 50px lighten($main-color, 5);
   }
   &:focus {
     background-image: none;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { browserHistory } from '../router/AppRouter';
+import { history } from '../router/AppRouter';
 
 import imageURL from '../../public/images/me_squared.png'
 
@@ -10,7 +10,7 @@ const Home = () => (
         <p>Hi!</p>
         <p>My name is <span>Tomáš.</span></p>
         <p>And I want to be a web developer.</p>
-        <button onClick={() => browserHistory.push('/resume')} className="button">Resume</button>
+        <button onClick={() => { history.push('/resume') }} className="button">Resume</button>
       </div>
       <div className="home__splitter"></div>
       <div className="home__picture">

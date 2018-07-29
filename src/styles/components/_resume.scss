@@ -1,0 +1,144 @@
+// GENERAL
+.resume {
+  display: flex;
+  padding: 5rem;
+  
+  h2 {
+    font-size: 3rem;
+    background: white;
+    color: $main-color;
+    font-weight: 700;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+.glyph {
+  font-size: 3rem;
+}
+.glyph--info {
+  margin-right: 10%;
+}
+.glyph--hobby {
+  font-size: 4rem;
+}
+.circle {
+  font-size: 1rem;
+}
+.separator {
+  border-bottom: 2px solid lighten($color: $main-color, $amount: 10);
+  margin: 1rem 0;
+}
+
+
+// LEFT SIDE
+.resume__left {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  background: $main-color;
+  color: white;
+  width: 25vw;
+
+  p {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.resume__photo {
+  img {
+    max-width: 100%;
+  }
+}
+
+.resume__section {
+  margin-top: 0.5rem;
+}
+
+.section__info {
+  padding: 1rem;
+}
+
+.section__skills {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.section__hobbies {
+  display: flex;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+
+// RIGHT SIDE
+.resume__right {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-;
+
+  background: white;
+  color: $font-color;
+  padding: 1rem;
+  width: 50vw;
+  h1 {
+    color: $main-color;
+    font-size: 6rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  h2 {
+    color: white;
+    background: $main-color;
+    text-align: left;
+    padding-left: 1.5rem;
+    span {
+      margin-right: 2rem;
+      font-size: 4rem;
+    }
+  }
+}
+
+.resume__entry {
+  // border-left: 3px solid $main-color;
+  border-left: 3px solid lighten($color: $main-color, $amount: 10);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  h3 {
+    font-size: 2.2rem;
+  }
+
+
+}
+
+.resume__entry__subtitle {
+  color: grey;
+  font-size: 1.8rem;
+}
+
+.resume__entry__time {
+  color: $main-color;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.resume__entry__location {
+  color: grey;
+  font-size: 1.2rem;
+}
