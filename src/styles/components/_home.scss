@@ -1,12 +1,19 @@
 .home {
   display: flex;
   align-items: center;
+  min-height: 90vh;
+  @media (max-width: $large-breakpoint){
+    flex-direction: column-reverse;
+    justify-content: center;
+  
+  }  
 }
 
 .home__info {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem;
 
   p {
     font-size: 6rem;
@@ -19,17 +26,41 @@
       margin-top: 1rem;
     }
   }
+
+  @media (max-width: $medium-breakpoint){
+    p {
+      font-size: 3rem;
+      &:nth-child(3) {
+        font-size: 1.5rem;
+      }
+    }
+  }  
 }
 
 .home__splitter {
   height: 75vh;
   border-right: 2px solid $main-color;
   margin: 5rem;
+  @media (max-width: $large-breakpoint){
+    display: none;
+  } 
 }
 
 .home__picture {
   img {
-    height: 50vh;
+    max-height: 40vh;
     border-radius: 50%;
   }
+  @media (max-width: $medium-breakpoint){
+    margin: 0;
+    img {
+      max-height: 20vh;
+    }
+  } 
+  @media (max-width: $large-breakpoint){
+    margin-bottom: 2rem;
+    img {
+      max-height: 30vh;
+    }
+  }  
 }

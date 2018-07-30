@@ -15,6 +15,10 @@
       border-bottom: 2px solid $main-color;
     }
   }
+  @media (max-width: $medium-breakpoint){
+    padding: 2rem;
+    margin: 0;
+  } 
 }
 
 .header__home {

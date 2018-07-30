@@ -25,21 +25,19 @@ export const rating = (score, base) => {
 };
 
 const Resume = () => (
-  <div className="container__component">
-    <div className="resume">
-      <div className="resume__left">
-        <div className="resume__photo">
-          <img src={imageURL} alt="profile_picture" />
-        </div>
-        <ResumeContact />
-        <ResumeSkills />
-        <ResumeLanguages />
-        <ResumeHobbies />
+  <div className="resume">
+    <div className="resume__left">
+      <div className="resume__photo">
+        <img src={imageURL} alt="profile_picture" />
       </div>
-      <div className="resume__right">
-        <ResumeTitle />
-        <ResumeEntryList />
-      </div>
+      <ResumeContact />
+      <ResumeSkills />
+      <ResumeLanguages />
+      <ResumeHobbies />
+    </div>
+    <div className="resume__right">
+      <ResumeTitle />
+      <ResumeEntryList />
     </div>
   </div>
 );

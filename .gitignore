@@ -4,3 +4,5 @@
 /src/.cache
 /src/dist
 yarn.lock
+.cache
+dist

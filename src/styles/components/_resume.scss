@@ -1,6 +1,7 @@
 // GENERAL
 .resume {
   display: flex;
+  justify-content: center;
   padding: 5rem;
   
   h2 {
@@ -15,9 +16,26 @@
     text-decoration: none;
     color: inherit;
   }
+
+  @media (max-width: $medium-breakpoint){
+    padding: 0;
+    flex-direction: column;
+  } 
+  @media (max-width: $large-breakpoint){
+    padding: 2rem;
+    h2 {
+      font-size: 2.5rem;
+    }
+  }  
 }
 .glyph {
   font-size: 3rem;
+  @media (max-width: $medium-breakpoint){
+    font-size: 2rem;
+  } 
+  @media (max-width: $large-breakpoint){
+    font-size: 2.5rem;
+  } 
 }
 .glyph--info {
   margin-right: 10%;
@@ -41,18 +59,28 @@
   padding: 0.5rem;
   background: $main-color;
   color: white;
-  width: 25vw;
+  width: 33rem;
 
   p {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
   }
+  @media (max-width: $medium-breakpoint){
+    padding: 1rem;
+    width: 100vw;
+  } 
+  @media (max-width: $large-breakpoint){
+    p {
+      font-size: 1.5rem;
+    }
+  } 
 }
 
 .resume__photo {
   img {
-    max-width: 100%;
+    width: 100%;
   }
+  
 }
 
 .resume__section {
@@ -95,7 +123,7 @@
   background: white;
   color: $font-color;
   padding: 1rem;
-  width: 50vw;
+  width: 66rem;
   h1 {
     color: $main-color;
     font-size: 6rem;
@@ -112,7 +140,22 @@
       font-size: 4rem;
     }
   }
+
+  @media (max-width: $medium-breakpoint){
+    padding: 1rem;
+    width: 100vw;
+  } 
+  @media (max-width: $large-breakpoint){
+
+  } 
 }
+
+.resume__title {
+  @media (max-width: $medium-breakpoint){
+    display: none;
+  } 
+}
+
 
 .resume__entry {
   // border-left: 3px solid $main-color;
@@ -123,13 +166,23 @@
   h3 {
     font-size: 2.2rem;
   }
-
+  @media (max-width: $medium-breakpoint){
+    padding: 0;
+    width: 100vw;
+    border: none;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid lighten($color: $main-color, $amount: 10);
+    width: 100%;
+  } 
 
 }
 
 .resume__entry__subtitle {
   color: grey;
   font-size: 1.8rem;
+  @media (max-width: $medium-breakpoint){
+    display: none;
+  } 
 }
 
 .resume__entry__time {
@@ -141,4 +194,7 @@
 .resume__entry__location {
   color: grey;
   font-size: 1.2rem;
+  @media (max-width: $medium-breakpoint){
+    display: none;
+  } 
 }
