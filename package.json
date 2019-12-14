@@ -11,11 +11,13 @@
     "start": "yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "lint": "./node_modules/.bin/eslint --color src --ext .js,.jsx",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
     "gatsby": "^2.18.8",
     "gatsby-plugin-favicon": "^3.1.6",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },

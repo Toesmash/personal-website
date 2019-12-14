@@ -1,3 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { Link } from 'gatsby';
 
-export default () => <h1>Resume.jsx</h1>;
+const ResumePage = () => (
+  <Fragment>
+    <h1>ResumePage</h1>
+    <Link to="/">go to homepage</Link>
+  </Fragment>
+);
+
+export default ResumePage;
