@@ -1,8 +1,17 @@
-/node_modules
-/public/.cache
-/public/dist
-/src/.cache
-/src/dist
-yarn.lock
-.cache
-dist
+build/
+public/
+
+# Parcel files
+.cache/
+
+# dependencies
+node_modules/
+
+# Mac files
+.DS_Store
+
+# Yarn
+.pnp/
+.pnp.js
+yarn-error.log
+.yarn-integrity
