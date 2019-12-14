@@ -8,6 +8,7 @@ const Header = () => (
         </div>
         <div className="header__nav">
             <NavLink activeClassName="link--active" to="/resume">RESUME</NavLink>
+            <NavLink activeClassName="link--active" to="/projects">PROJECTS</NavLink>
         </div>
     </header>
 );

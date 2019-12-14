@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio-2018",
   "version": "1.0.0",
   "description": "Personal website",
   "main": "index.html",
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
+    "cssnano": "^4.0.5",
     "node-sass": "^4.9.2"
   }
 }
