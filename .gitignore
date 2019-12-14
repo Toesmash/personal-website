@@ -1,5 +1,6 @@
 build/
 public/
+dist/
 
 # Parcel files
 .cache/
