@@ -1,0 +1,11 @@
+// normalize styles
+@import "../../node_modules/normalize-scss/sass/normalize";
+
+@include normalize();
+
+// Utils
+@import "variables";
+
+// Global rules
+@import "root";
+@import "typo";
