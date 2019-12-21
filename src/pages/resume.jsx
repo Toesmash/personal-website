@@ -1,11 +1,12 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
+import Layout from '../components/Layout/Layout';
 
 const ResumePage = () => (
-  <Fragment>
+  <Layout>
     <h1>ResumePage</h1>
     <Link to="/">go to homepage</Link>
-  </Fragment>
+  </Layout>
 );
 
 export default ResumePage;
