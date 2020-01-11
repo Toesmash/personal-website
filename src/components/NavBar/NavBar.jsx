@@ -8,19 +8,39 @@ import {
   RESUME_PATH,
   PROJECTS_PATH,
 } from '../../common/paths';
+import Container from '../Container/Container';
 
 const NavBar = () => {
   return (
-    <div className={styles.wrapper}>
-      <div>
-        <Link to={HOMEPAGE_PATH}>TomasChvalny</Link>
+    <Container className={styles.wrapper}>
+      <div className={styles.leftSection}>
+        <Link
+          to={HOMEPAGE_PATH}
+        >
+          {'< TomasChvalny />'}
+        </Link>
       </div>
-      <div>
-        <Link to={RESUME_PATH}>Resume</Link>
-        <Link to={WORK_PATH}>Work</Link>
-        <Link to={PROJECTS_PATH}>Projects</Link>
+      <div className={styles.rightSection}>
+        <Link
+          to={RESUME_PATH}
+          activeClassName={styles.activeLink}
+        >
+          Resume
+        </Link>
+        <Link
+          to={WORK_PATH}
+          activeClassName={styles.activeLink}
+        >
+          Work
+        </Link>
+        <Link
+          to={PROJECTS_PATH}
+          activeClassName={styles.activeLink}
+        >
+          Projects
+        </Link>
       </div>
-    </div>
+    </Container>
   );
 };
 
