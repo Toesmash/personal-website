@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
 
-const WorkPage = () => (
+const pagesWork = () => (
   <Layout>
-    <h1>WorkPage</h1>
+    <h1>pagesWork</h1>
   </Layout>
 );
 
-export default WorkPage;
+export default pagesWork;

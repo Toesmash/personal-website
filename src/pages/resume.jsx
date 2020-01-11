@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
 
-const ResumePage = () => (
+const pagesResume = () => (
   <Layout>
-    <h1>ResumePage</h1>
+    <h1>pagesResume</h1>
   </Layout>
 );
 
-export default ResumePage;
+export default pagesResume;

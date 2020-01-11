@@ -3,10 +3,6 @@
   align-items: center;
   justify-content: space-between;
   height: $navbar-height;
-}
-
-.leftSection,
-.rightSection {
   font-family: monospace;
   font-size: 1.8rem;
 }
@@ -16,11 +12,15 @@
 }
 
 .leftSection {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 .rightSection a {
   margin: 0 8px;
   padding: 0 8px;
   padding-bottom: 4px;
+}
+
+.rightSection a:hover {
+  color: $gray-light;
 }
