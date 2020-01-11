@@ -1,0 +1,18 @@
+.primary {
+  border: 2px solid $primary-color;
+}
+
+.button {
+  padding: 16px 24px;
+  transition: all 100ms ease-in-out;
+  background: rgba($primary-color, 0.1);
+}
+
+.button:hover {
+  background: rgba($primary-color, 0.7);
+  color: $white;
+}
+
+.pill {
+  border-radius: 99999px;
+}
