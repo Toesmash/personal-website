@@ -1,0 +1,14 @@
+.wrapper {
+  text-align: center;
+}
+
+.heading {
+  font-weight: 400;
+  margin-top: -50px;
+
+  em {
+    font-weight: bold;
+    font-style: normal;
+    color: $primary-color;
+  }
+}
