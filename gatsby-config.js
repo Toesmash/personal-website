@@ -3,6 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+const path = require('path');
 
 module.exports = {
   plugins: [
@@ -27,8 +28,17 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-favicon',
       options: {
-        logo: './src/assets/favicon.png',
+        logo: path.join(__dirname, 'src', 'assets', 'favicon.png'),
       }
-    }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: path.join(__dirname, 'src', 'images'),
+      },
+    },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
   ],
 };
