@@ -3,9 +3,9 @@
 
 @include normalize();
 
-// Utils
-@import "variables";
-
 // Global rules
 @import "root";
 @import "typo";
+
+// Util methods are imported with webpack (utils.scss)
+// ---> globaly accesible methods need to be added in utils folder as partial and imported in utils.scss (ie. variables, mixings ...)

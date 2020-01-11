@@ -6,9 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint": "./node_modules/.bin/eslint --color src --ext .js,.jsx",

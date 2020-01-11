@@ -6,7 +6,12 @@
 
 module.exports = {
   plugins: [
-    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        data: '@import "./src/styles/utils";',
+      }
+    },
     {
       resolve: 'gatsby-plugin-eslint',
       options: {
