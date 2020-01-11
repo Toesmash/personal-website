@@ -2,11 +2,13 @@ import React from "react";
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 
+import NavBar from '../NavBar/NavBar';
 import styles from './Layout.module.scss';
 
 const Layout = ({ children, className }) => {
   return (
     <div className={cx(styles.wrapper, className)}>
+      <NavBar />
       {children}
     </div>
   );
